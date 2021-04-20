@@ -6,15 +6,17 @@ import com.baomidou.mybatisplus.annotation.TableName;
 import java.io.Serializable;
 import java.util.Date;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 /**
  * 会员
  * 
- * @author yaoxinjia
- * @email 894548575@qq.com
- * @date 2021-02-09 20:58:11
+ * @author liuxinle
+ * @email liuxinle@gmail.com
+ * @date 2021-01-11 17:48:09
  */
 @Data
+@NoArgsConstructor
 @TableName("ums_member")
 public class MemberEntity implements Serializable {
 	private static final long serialVersionUID = 1L;
@@ -92,5 +94,11 @@ public class MemberEntity implements Serializable {
 	 * 注册时间
 	 */
 	private Date createTime;
+
+	private String socialUid;
+
+	private String accessToken;
+
+	private Long expiresIn;
 
 }

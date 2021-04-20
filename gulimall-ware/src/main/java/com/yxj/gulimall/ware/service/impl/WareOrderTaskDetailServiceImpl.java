@@ -1,7 +1,7 @@
 package com.yxj.gulimall.ware.service.impl;
 
-import com.yxj.common.utils.PageUtils;
-import com.yxj.common.utils.Query;
+import com.yxj.gulimall.common.utils.PageUtils;
+import com.yxj.gulimall.common.utils.Query;
 import com.yxj.gulimall.ware.dao.WareOrderTaskDetailDao;
 import com.yxj.gulimall.ware.entity.WareOrderTaskDetailEntity;
 import com.yxj.gulimall.ware.service.WareOrderTaskDetailService;

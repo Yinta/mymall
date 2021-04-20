@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://192.168.1.112:3306/gulimall_pms?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://192.168.11.130:3306/gulimall_pms?useUnicode=true&characterEncoding=UTF-8&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai
     username: root
     password: root
   cloud:
@@ -15,6 +15,11 @@ spring:
         endpoint: oss-cn-shenzhen.aliyuncs.com
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
+  thymeleaf:
+    cache: false
+  redis:
+    host: 192.168.11.130
+    port: 6379
 
 # MapperScan
 # sql映射文件位置
@@ -28,11 +33,13 @@ mybatis-plus:
 
 logging:
   level:
-    com.yxj.gulimall.product: debug
+    com.yxj.gulimall.product: error
 server:
-  port: 10000
-
+  port: 5000
 
 ribbon:
   ReadTimeout: 30000
   ConnectTimeout: 30000
+
+
+

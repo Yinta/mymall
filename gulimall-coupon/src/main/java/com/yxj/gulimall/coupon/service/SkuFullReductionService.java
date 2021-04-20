@@ -1,8 +1,8 @@
 package com.yxj.gulimall.coupon.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.yxj.common.to.SkuReductionTo;
-import com.yxj.common.utils.PageUtils;
+import com.yxj.gulimall.common.to.SkuReductionTo;
+import com.yxj.gulimall.common.utils.PageUtils;
 import com.yxj.gulimall.coupon.entity.SkuFullReductionEntity;
 
 import java.util.Map;

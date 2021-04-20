@@ -3,8 +3,8 @@ package com.yxj.gulimall.ware.controller;
 import java.util.Arrays;
 import java.util.Map;
 
-import com.yxj.common.utils.PageUtils;
-import com.yxj.common.utils.R;
+import com.yxj.gulimall.common.utils.PageUtils;
+import com.yxj.gulimall.common.utils.R;
 import com.yxj.gulimall.ware.entity.WareOrderTaskEntity;
 import com.yxj.gulimall.ware.service.WareOrderTaskService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,12 +16,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 
+
 /**
  * 库存工作单
- *
- * @author leifengyang
- * @email leifengyang@gmail.com
- * @date 2019-10-08 09:59:40
  */
 @RestController
 @RequestMapping("ware/wareordertask")

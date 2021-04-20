@@ -1,28 +1,24 @@
 package com.yxj.gulimall.member.controller;
 
-import java.util.Arrays;
-import java.util.Map;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
-
+import com.yxj.gulimall.common.utils.PageUtils;
+import com.yxj.gulimall.common.utils.R;
 import com.yxj.gulimall.member.entity.MemberReceiveAddressEntity;
 import com.yxj.gulimall.member.service.MemberReceiveAddressService;
-import com.yxj.common.utils.PageUtils;
-import com.yxj.common.utils.R;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.Map;
 
 
 
 /**
  * 会员收货地址
  *
- * @author yaoxinjia
- * @email 894548575@qq.com
- * @date 2021-02-09 20:58:11
+ * @author 夏沫止水
+ * @email HeJieLin@gulimall.com
+ * @date 2020-05-22 19:42:06
  */
 @RestController
 @RequestMapping("member/memberreceiveaddress")
@@ -30,11 +26,25 @@ public class MemberReceiveAddressController {
     @Autowired
     private MemberReceiveAddressService memberReceiveAddressService;
 
+
+    /**
+     * 根据会员id查询会员的所有地址
+     * @param memberId
+     * @return
+     */
+    @GetMapping(value = "/{memberId}/address")
+    public List<MemberReceiveAddressEntity> getAddress(@PathVariable("memberId") Long memberId) {
+
+        List<MemberReceiveAddressEntity> addressList = memberReceiveAddressService.getAddress(memberId);
+
+        return addressList;
+    }
+
     /**
      * 列表
      */
     @RequestMapping("/list")
-   // @RequiresPermissions("member:memberreceiveaddress:list")
+    //@RequiresPermissions("member:memberreceiveaddress:list")
     public R list(@RequestParam Map<String, Object> params){
         PageUtils page = memberReceiveAddressService.queryPage(params);
 
@@ -46,7 +56,7 @@ public class MemberReceiveAddressController {
      * 信息
      */
     @RequestMapping("/info/{id}")
-    // @RequiresPermissions("member:memberreceiveaddress:info")
+    //@RequiresPermissions("member:memberreceiveaddress:info")
     public R info(@PathVariable("id") Long id){
 		MemberReceiveAddressEntity memberReceiveAddress = memberReceiveAddressService.getById(id);
 
@@ -57,7 +67,7 @@ public class MemberReceiveAddressController {
      * 保存
      */
     @RequestMapping("/save")
-    // @RequiresPermissions("member:memberreceiveaddress:save")
+    //@RequiresPermissions("member:memberreceiveaddress:save")
     public R save(@RequestBody MemberReceiveAddressEntity memberReceiveAddress){
 		memberReceiveAddressService.save(memberReceiveAddress);
 
@@ -68,7 +78,7 @@ public class MemberReceiveAddressController {
      * 修改
      */
     @RequestMapping("/update")
-    // @RequiresPermissions("member:memberreceiveaddress:update")
+    //@RequiresPermissions("member:memberreceiveaddress:update")
     public R update(@RequestBody MemberReceiveAddressEntity memberReceiveAddress){
 		memberReceiveAddressService.updateById(memberReceiveAddress);
 
@@ -79,7 +89,7 @@ public class MemberReceiveAddressController {
      * 删除
      */
     @RequestMapping("/delete")
-    // @RequiresPermissions("member:memberreceiveaddress:delete")
+    //@RequiresPermissions("member:memberreceiveaddress:delete")
     public R delete(@RequestBody Long[] ids){
 		memberReceiveAddressService.removeByIds(Arrays.asList(ids));
 

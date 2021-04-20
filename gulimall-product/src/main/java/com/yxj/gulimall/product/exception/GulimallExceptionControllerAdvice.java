@@ -1,7 +1,7 @@
 package com.yxj.gulimall.product.exception;
 
-import com.yxj.common.exception.BizCodeEnum;
-import com.yxj.common.utils.R;
+import com.yxj.gulimall.common.exception.BizCodeEnum;
+import com.yxj.gulimall.common.utils.R;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.MethodArgumentNotValidException;
@@ -30,6 +30,6 @@ public class GulimallExceptionControllerAdvice {
     @ExceptionHandler(value = Throwable.class)
     public R handleException(Throwable throwable) {
         log.error("错误:", throwable);
-        return R.error(BizCodeEnum.UNKNOW_EXCEPTION.getCode(),BizCodeEnum.UNKNOW_EXCEPTION.getMsg());
+        return R.error(BizCodeEnum.UNKNOWN_EXCEPTION.getCode(),BizCodeEnum.UNKNOWN_EXCEPTION.getMsg());
     }
 }

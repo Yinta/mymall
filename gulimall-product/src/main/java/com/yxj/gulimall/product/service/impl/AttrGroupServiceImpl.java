@@ -1,13 +1,17 @@
 package com.yxj.gulimall.product.service.impl;
 
+import com.yxj.gulimall.common.utils.PageUtils;
+import com.yxj.gulimall.common.utils.Query;
 import com.yxj.gulimall.product.entity.AttrEntity;
 import com.yxj.gulimall.product.service.AttrService;
 import com.yxj.gulimall.product.vo.AttrGroupWithAttrsVo;
+
+import com.yxj.gulimall.product.vo.SpuItemAttrGroupVo;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.HashMap;
+
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
@@ -15,8 +19,7 @@ import java.util.stream.Collectors;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.yxj.common.utils.PageUtils;
-import com.yxj.common.utils.Query;
+
 
 import com.yxj.gulimall.product.dao.AttrGroupDao;
 import com.yxj.gulimall.product.entity.AttrGroupEntity;
@@ -97,5 +100,13 @@ public class AttrGroupServiceImpl extends ServiceImpl<AttrGroupDao, AttrGroupEnt
         }).collect(Collectors.toList());
         return collect2;
     }
+
+    @Override
+    public List<SpuItemAttrGroupVo> getAttrGroupWithAttrsBySpuId(Long spuId, Long catalogId) {
+        //查询当前spu对应的所有属性的分组信息以及当前分组下所有属性对应的值
+        List<SpuItemAttrGroupVo> vos = this.baseMapper.getAttrGroupWithAttrsBySpuId(spuId,catalogId);
+        return vos;
+    }
+
 
 }

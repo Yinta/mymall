@@ -1,7 +1,9 @@
 package com.yxj.gulimall.coupon.service.impl;
 
-import com.yxj.common.to.MemberPrice;
-import com.yxj.common.to.SkuReductionTo;
+import com.yxj.gulimall.common.to.MemberPrice;
+import com.yxj.gulimall.common.to.SkuReductionTo;
+import com.yxj.gulimall.common.utils.PageUtils;
+import com.yxj.gulimall.common.utils.Query;
 import com.yxj.gulimall.coupon.entity.MemberPriceEntity;
 import com.yxj.gulimall.coupon.entity.SkuLadderEntity;
 import com.yxj.gulimall.coupon.service.MemberPriceService;
@@ -19,8 +21,6 @@ import java.util.stream.Collectors;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.yxj.common.utils.PageUtils;
-import com.yxj.common.utils.Query;
 
 import com.yxj.gulimall.coupon.dao.SkuFullReductionDao;
 import com.yxj.gulimall.coupon.entity.SkuFullReductionEntity;

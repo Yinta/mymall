@@ -3,6 +3,8 @@ package com.yxj.gulimall.coupon.controller;
 import java.util.Arrays;
 import java.util.Map;
 
+import com.yxj.gulimall.common.utils.PageUtils;
+import com.yxj.gulimall.common.utils.R;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
@@ -14,8 +16,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.yxj.gulimall.coupon.entity.CouponEntity;
 import com.yxj.gulimall.coupon.service.CouponService;
-import com.yxj.common.utils.PageUtils;
-import com.yxj.common.utils.R;
 
 
 

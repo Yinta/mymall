@@ -5,10 +5,10 @@ import com.baomidou.mybatisplus.annotation.TableName;
 
 import java.io.Serializable;
 
-import com.yxj.common.valid.AddGroup;
-import com.yxj.common.valid.ListValue;
-import com.yxj.common.valid.UpdateGroup;
-import com.yxj.common.valid.UpdateStatusGroup;
+import com.yxj.gulimall.common.valid.AddGroup;
+import com.yxj.gulimall.common.valid.ListValue;
+import com.yxj.gulimall.common.valid.UpdateGroup;
+import com.yxj.gulimall.common.valid.UpdateStatusGroup;
 import lombok.Data;
 import org.hibernate.validator.constraints.URL;
 

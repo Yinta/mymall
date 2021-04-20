@@ -1,6 +1,6 @@
 package com.yxj.gulimall.member.feign;
 
-import com.yxj.common.utils.R;
+import com.yxj.gulimall.common.utils.R;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.RequestMapping;
 

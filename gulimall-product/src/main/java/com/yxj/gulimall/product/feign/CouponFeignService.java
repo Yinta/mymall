@@ -1,9 +1,9 @@
 package com.yxj.gulimall.product.feign;
 
 
-import com.yxj.common.to.SkuReductionTo;
-import com.yxj.common.to.SpuBoundTo;
-import com.yxj.common.utils.R;
+import com.yxj.gulimall.common.to.SkuReductionTo;
+import com.yxj.gulimall.common.to.SpuBoundTo;
+import com.yxj.gulimall.common.utils.R;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

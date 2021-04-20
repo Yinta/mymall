@@ -1,15 +1,16 @@
 package com.yxj.gulimall.ware.service.impl;
 
-import com.yxj.common.utils.PageUtils;
-import com.yxj.common.utils.Query;
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.yxj.gulimall.common.utils.PageUtils;
+import com.yxj.gulimall.common.utils.Query;
 import com.yxj.gulimall.ware.dao.WareOrderTaskDao;
 import com.yxj.gulimall.ware.entity.WareOrderTaskEntity;
 import com.yxj.gulimall.ware.service.WareOrderTaskService;
 import org.springframework.stereotype.Service;
+
 import java.util.Map;
-import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.baomidou.mybatisplus.core.metadata.IPage;
-import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 
 
 @Service("wareOrderTaskService")
@@ -23,6 +24,15 @@ public class WareOrderTaskServiceImpl extends ServiceImpl<WareOrderTaskDao, Ware
         );
 
         return new PageUtils(page);
+    }
+
+    @Override
+    public WareOrderTaskEntity getOrderTaskByOrderSn(String orderSn) {
+
+        WareOrderTaskEntity orderTaskEntity = this.baseMapper.selectOne(
+                new QueryWrapper<WareOrderTaskEntity>().eq("order_sn", orderSn));
+
+        return orderTaskEntity;
     }
 
 }

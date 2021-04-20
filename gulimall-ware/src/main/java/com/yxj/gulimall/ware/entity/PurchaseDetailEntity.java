@@ -5,14 +5,15 @@ import com.baomidou.mybatisplus.annotation.TableName;
 
 import java.math.BigDecimal;
 import java.io.Serializable;
+import java.util.Date;
 import lombok.Data;
 
 /**
  * 
  * 
- * @author leifengyang
- * @email leifengyang@gmail.com
- * @date 2019-11-17 13:50:10
+ * @author 夏沫止水
+ * @email HeJieLin@gulimall.com
+ * @date 2020-05-22 19:55:33
  */
 @Data
 @TableName("wms_purchase_detail")

@@ -3,13 +3,14 @@ package com.yxj.gulimall.coupon.controller;
 import java.util.Arrays;
 import java.util.Map;
 
+import com.yxj.gulimall.common.utils.PageUtils;
+import com.yxj.gulimall.common.utils.R;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import com.yxj.gulimall.coupon.entity.SpuBoundsEntity;
 import com.yxj.gulimall.coupon.service.SpuBoundsService;
-import com.yxj.common.utils.PageUtils;
-import com.yxj.common.utils.R;
+
 
 
 
