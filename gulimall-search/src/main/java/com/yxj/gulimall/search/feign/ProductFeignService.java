@@ -8,7 +8,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.List;
-
+/**
+ * @author yaoxinjia
+ */
 @FeignClient("gulimall-product")
 public interface ProductFeignService {
     @GetMapping("/product/attr/info/{attrId}")

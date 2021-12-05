@@ -21,8 +21,6 @@ import com.yxj.gulimall.product.service.SpuCommentService;
  * 商品评价
  *
  * @author yaoxinjia
- * @email 894548575@qq.com
- * @date 2021-02-16 17:22:14
  */
 @RestController
 @RequestMapping("product/spucomment")

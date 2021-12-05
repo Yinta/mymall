@@ -30,7 +30,9 @@ import com.yxj.gulimall.product.dao.SkuInfoDao;
 import com.yxj.gulimall.product.entity.SkuInfoEntity;
 import org.springframework.util.StringUtils;
 
-
+/**
+ * @author yaoxinjia
+ */
 @Service("skuInfoService")
 public class SkuInfoServiceImpl extends ServiceImpl<SkuInfoDao, SkuInfoEntity> implements SkuInfoService {
 

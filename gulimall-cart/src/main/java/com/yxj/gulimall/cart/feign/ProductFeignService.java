@@ -11,6 +11,10 @@ import java.util.List;
 
 
 
+/**
+ *
+ * @author yaoxinjia
+ */
 @FeignClient("gulimall-product")
 public interface ProductFeignService {
 

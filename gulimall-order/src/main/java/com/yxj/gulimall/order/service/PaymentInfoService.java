@@ -7,7 +7,8 @@ import com.yxj.gulimall.order.entity.PaymentInfoEntity;
 import java.util.Map;
 
 /**
- * 支付信息表
+ * @author yaoxinjia
+ * @email 894548575@qq.com
  */
 public interface PaymentInfoService extends IService<PaymentInfoEntity> {
 

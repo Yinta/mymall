@@ -9,7 +9,10 @@ import java.util.concurrent.LinkedBlockingDeque;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
-
+/**
+ *
+ * @author yaoxinjia
+ */
 @EnableConfigurationProperties(ThreadPoolConfigProperties.class)
 @Configuration
 public class MyThreadConfig {

@@ -4,7 +4,9 @@ import lombok.Data;
 import lombok.ToString;
 
 import java.util.List;
-
+/**
+ * @author yaoxinjia
+ */
 @ToString
 @Data
 public class SpuItemAttrGroupVo {

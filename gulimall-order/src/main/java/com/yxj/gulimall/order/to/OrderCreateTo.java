@@ -8,12 +8,9 @@ import java.math.BigDecimal;
 import java.util.List;
 
 /**
- * @Description:
- * @Created: with IntelliJ IDEA.
- * @author: 夏沫止水
- * @createTime: 2020-07-04 23:04
- **/
-
+ * @author yaoxinjia
+ * @email 894548575@qq.com
+ */
 @Data
 public class OrderCreateTo {
 

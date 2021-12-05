@@ -7,6 +7,9 @@ import org.apache.ibatis.annotations.Mapper;
  * 采购信息
  *
  */
+/**
+ * @author yaoxinjia
+ */
 @Mapper
 public interface PurchaseDao extends BaseMapper<PurchaseEntity> {
 	

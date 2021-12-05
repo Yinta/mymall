@@ -3,8 +3,11 @@ package com.yxj.gulimall.cart.config;
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
+/**
+ *
+ * @author yaoxinjia
+ */
 @ConfigurationProperties(prefix = "gulimall.thread")
-// @Component
 @Data
 public class ThreadPoolConfigProperties {
 

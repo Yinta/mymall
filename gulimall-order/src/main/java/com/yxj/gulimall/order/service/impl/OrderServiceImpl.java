@@ -54,7 +54,10 @@ import java.util.stream.Collectors;
 import static com.yxj.gulimall.common.constant.CartConstant.CART_PREFIX;
 import static com.yxj.gulimall.order.constant.OrderConstant.USER_ORDER_TOKEN_PREFIX;
 
-
+/**
+ * @author yaoxinjia
+ * @email 894548575@qq.com
+ */
 @Slf4j
 @Service("orderService")
 public class OrderServiceImpl extends ServiceImpl<OrderDao, OrderEntity> implements OrderService {

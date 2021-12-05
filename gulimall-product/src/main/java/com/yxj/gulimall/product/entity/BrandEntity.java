@@ -18,8 +18,6 @@ import javax.validation.constraints.*;
  * 品牌
  * 
  * @author yaoxinjia
- * @email 894548575@qq.com
- * @date 2021-02-16 17:22:13
  */
 @Data
 @TableName("pms_brand")

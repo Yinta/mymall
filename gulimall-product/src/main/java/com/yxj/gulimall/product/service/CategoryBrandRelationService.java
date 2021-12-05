@@ -12,8 +12,6 @@ import java.util.Map;
  * 品牌分类关联
  *
  * @author yaoxinjia
- * @email 894548575@qq.com
- * @date 2021-02-16 17:22:14
  */
 public interface CategoryBrandRelationService extends IService<CategoryBrandRelationEntity> {
 

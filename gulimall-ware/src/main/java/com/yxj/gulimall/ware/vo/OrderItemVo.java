@@ -6,7 +6,9 @@ import java.math.BigDecimal;
 import java.util.List;
 
 
-
+/**
+ * @author yaoxinjia
+ */
 @Data
 public class OrderItemVo {
 

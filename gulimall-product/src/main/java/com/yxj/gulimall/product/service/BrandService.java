@@ -11,8 +11,6 @@ import java.util.Map;
  * 品牌
  *
  * @author yaoxinjia
- * @email 894548575@qq.com
- * @date 2021-02-16 17:22:13
  */
 public interface BrandService extends IService<BrandEntity> {
 

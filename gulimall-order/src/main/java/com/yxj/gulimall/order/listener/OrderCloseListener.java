@@ -12,9 +12,9 @@ import org.springframework.stereotype.Service;
 import java.io.IOException;
 
 /**
- * @Description: 定时关闭订单
- * **/
-
+ * @author yaoxinjia
+ * @email 894548575@qq.com
+ */
 @RabbitListener(queues = "order.release.order.queue")
 @Service
 public class OrderCloseListener {

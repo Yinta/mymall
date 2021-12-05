@@ -18,7 +18,9 @@ import com.yxj.gulimall.product.dao.AttrAttrgroupRelationDao;
 import com.yxj.gulimall.product.entity.AttrAttrgroupRelationEntity;
 import com.yxj.gulimall.product.service.AttrAttrgroupRelationService;
 
-
+/**
+ * @author yaoxinjia
+ */
 @Service("attrAttrgroupRelationService")
 public class AttrAttrgroupRelationServiceImpl extends ServiceImpl<AttrAttrgroupRelationDao, AttrAttrgroupRelationEntity> implements AttrAttrgroupRelationService {
 

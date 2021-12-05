@@ -12,9 +12,8 @@ import com.yxj.gulimall.common.exception.RRException;
 import org.apache.commons.lang.StringUtils;
 
 /**
- * SQL过滤
  *
- * @author Mark sunlightcs@gmail.com
+ * @author yaoxinjia
  */
 public class SQLFilter {
 

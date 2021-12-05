@@ -6,6 +6,10 @@ import org.hibernate.validator.constraints.Length;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Pattern;
 
+/**
+ *
+ * @author yaoxinjia
+ */
 @Data
 public class UserRegisterVo {
     @NotEmpty(message = "用户名不能为空")

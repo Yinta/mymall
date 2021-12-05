@@ -5,10 +5,9 @@ import com.yxj.gulimall.common.utils.PageUtils;
 import com.yxj.gulimall.order.entity.OrderOperateHistoryEntity;
 
 import java.util.Map;
-
 /**
- * 订单操作历史记录
- *
+ * @author yaoxinjia
+ * @email 894548575@qq.com
  */
 public interface OrderOperateHistoryService extends IService<OrderOperateHistoryEntity> {
 

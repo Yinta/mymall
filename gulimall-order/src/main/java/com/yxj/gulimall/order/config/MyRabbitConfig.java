@@ -9,7 +9,10 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
 
 
-
+/**
+ * @author yaoxinjia
+ * @email 894548575@qq.com
+ */
 @Configuration
 public class MyRabbitConfig {
 

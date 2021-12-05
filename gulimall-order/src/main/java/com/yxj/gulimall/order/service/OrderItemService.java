@@ -7,7 +7,8 @@ import com.yxj.gulimall.order.entity.OrderItemEntity;
 import java.util.Map;
 
 /**
- * 订单项信息
+ * @author yaoxinjia
+ * @email 894548575@qq.com
  */
 public interface OrderItemService extends IService<OrderItemEntity> {
 

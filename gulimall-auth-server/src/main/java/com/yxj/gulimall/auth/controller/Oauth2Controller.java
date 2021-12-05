@@ -31,6 +31,7 @@ import java.util.Map;
 
 /**
  * 处理社交登录请求
+ * @author yaoxinjia
  */
 @Slf4j
 @Controller

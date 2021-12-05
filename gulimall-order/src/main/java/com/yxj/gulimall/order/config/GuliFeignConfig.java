@@ -10,7 +10,10 @@ import org.springframework.web.context.request.ServletRequestAttributes;
 import javax.servlet.http.HttpServletRequest;
 
 
-
+/**
+ * @author yaoxinjia
+ * @email 894548575@qq.com
+ */
 @Configuration
 public class GuliFeignConfig {
 

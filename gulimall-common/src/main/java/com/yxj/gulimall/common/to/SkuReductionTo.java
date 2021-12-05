@@ -5,6 +5,10 @@ import lombok.Data;
 import java.math.BigDecimal;
 import java.util.List;
 
+/**
+ *
+ * @author yaoxinjia
+ */
 @Data
 public class SkuReductionTo {
     private Long skuId;

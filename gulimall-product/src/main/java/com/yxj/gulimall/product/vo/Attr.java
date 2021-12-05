@@ -6,15 +6,10 @@ package com.yxj.gulimall.product.vo;
 import lombok.Data;
 import lombok.ToString;
 
+
 /**
- * Auto-generated: 2021-03-03 18:7:54
- *
- * @author bejson.com (i@bejson.com)
- * @website http://www.bejson.com/java2pojo/
+ * @author yaoxinjia
  */
-
-
-
 @ToString
 @Data
 public class Attr {

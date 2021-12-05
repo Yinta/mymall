@@ -7,8 +7,8 @@ import com.yxj.gulimall.order.entity.OrderReturnApplyEntity;
 import java.util.Map;
 
 /**
- * 订单退货申请
- *
+ * @author yaoxinjia
+ * @email 894548575@qq.com
  */
 public interface OrderReturnApplyService extends IService<OrderReturnApplyEntity> {
 

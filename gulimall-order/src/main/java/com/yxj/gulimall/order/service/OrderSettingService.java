@@ -7,7 +7,8 @@ import com.yxj.gulimall.order.entity.OrderSettingEntity;
 import java.util.Map;
 
 /**
- * 订单配置信息
+ * @author yaoxinjia
+ * @email 894548575@qq.com
  */
 public interface OrderSettingService extends IService<OrderSettingEntity> {
 

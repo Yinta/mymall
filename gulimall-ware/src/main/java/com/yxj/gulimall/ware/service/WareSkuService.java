@@ -10,10 +10,8 @@ import com.yxj.gulimall.ware.vo.WareSkuLockVo;
 
 import java.util.List;
 import java.util.Map;
-
 /**
- * 商品库存
- *
+ * @author yaoxinjia
  */
 public interface WareSkuService extends IService<WareSkuEntity> {
 

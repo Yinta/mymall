@@ -11,7 +11,10 @@ import java.util.HashMap;
 
 
 
-
+/**
+ * @author yaoxinjia
+ * @email 894548575@qq.com
+ */
 @Configuration
 public class MyRabbitMQConfig {
 

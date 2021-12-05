@@ -6,9 +6,9 @@ import java.math.BigDecimal;
 import java.util.Date;
 
 /**
- * @Description:
- **/
-
+ * @author yaoxinjia
+ * @email 894548575@qq.com
+ */
 @Data
 public class SpuInfoVo {
 

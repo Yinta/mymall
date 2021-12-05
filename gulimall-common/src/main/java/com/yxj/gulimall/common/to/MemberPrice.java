@@ -4,6 +4,10 @@ import lombok.Data;
 
 import java.math.BigDecimal;
 
+/**
+ *
+ * @author yaoxinjia
+ */
 @Data
 public class MemberPrice {
     private Long id;

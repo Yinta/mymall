@@ -10,11 +10,8 @@ import java.util.Map;
 import java.util.concurrent.ExecutionException;
 
 /**
- * 订单
- *
- * @author 夏沫止水
- * @email HeJieLin@gulimall.com
- * @date 2020-05-22 19:49:53
+ * @author yaoxinjia
+ * @email 894548575@qq.com
  */
 public interface OrderService extends IService<OrderEntity> {
 

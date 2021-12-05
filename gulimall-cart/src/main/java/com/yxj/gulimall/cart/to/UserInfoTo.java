@@ -3,7 +3,10 @@ package com.yxj.gulimall.cart.to;
 import lombok.Data;
 
 
-
+/**
+ *
+ * @author yaoxinjia
+ */
 @Data
 public class UserInfoTo {
 

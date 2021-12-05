@@ -7,7 +7,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import java.util.List;
 
 
-
+/**
+ * @author yaoxinjia
+ * @email 894548575@qq.com
+ */
 @FeignClient("gulimall-cart")
 public interface CartFeignService {
 

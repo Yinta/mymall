@@ -8,7 +8,9 @@ import org.springframework.stereotype.Component;
 
 import java.util.HashMap;
 import java.util.Map;
-
+/**
+ * @author yaoxinjia
+ */
 @ConfigurationProperties(prefix = "spring.cloud.alicloud.sms")
 @Data
 @Component

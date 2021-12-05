@@ -11,6 +11,9 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * @author yaoxinjia
+ */
 @Slf4j
 @RestControllerAdvice(basePackages = "com.yxj.gulimall.product.controller")
 public class GulimallExceptionControllerAdvice {

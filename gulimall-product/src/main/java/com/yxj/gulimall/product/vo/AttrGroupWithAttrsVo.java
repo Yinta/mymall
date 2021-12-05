@@ -5,7 +5,9 @@ import com.yxj.gulimall.product.entity.AttrEntity;
 import lombok.Data;
 
 import java.util.List;
-
+/**
+ * @author yaoxinjia
+ */
 @Data
 public class AttrGroupWithAttrsVo {
 

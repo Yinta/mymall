@@ -12,7 +12,11 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
-
+/**
+ * @author yaoxinjia
+ * @email 894548575@qq.com
+ * @date 2021-02-16 17:22:13
+ */
 @SpringBootApplication
 @EnableDiscoveryClient
 public class RenrenApplication {

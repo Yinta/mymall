@@ -18,6 +18,10 @@ import static com.yxj.gulimall.common.constant.CartConstant.TEMP_USER_COOKIE_NAM
 import static com.yxj.gulimall.common.constant.CartConstant.TEMP_USER_COOKIE_TIMEOUT;
 
 
+/**
+ *
+ * @author yaoxinjia
+ */
 public class CartInterceptor implements HandlerInterceptor {
 
 

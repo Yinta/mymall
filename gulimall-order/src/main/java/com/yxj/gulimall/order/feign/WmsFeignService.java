@@ -9,7 +9,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.List;
-
+/**
+ * @author yaoxinjia
+ * @email 894548575@qq.com
+ */
 @FeignClient("gulimall-ware")
 public interface WmsFeignService {
 

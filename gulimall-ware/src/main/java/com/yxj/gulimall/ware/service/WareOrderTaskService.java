@@ -7,7 +7,7 @@ import com.yxj.gulimall.ware.entity.WareOrderTaskEntity;
 import java.util.Map;
 
 /**
- * 库存工作单
+ * @author yaoxinjia
  */
 public interface WareOrderTaskService extends IService<WareOrderTaskEntity> {
 

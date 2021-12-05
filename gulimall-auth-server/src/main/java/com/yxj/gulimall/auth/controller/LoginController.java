@@ -30,6 +30,9 @@ import java.util.UUID;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
+/**
+ * @author yaoxinjia
+ */
 @Controller
 public class LoginController {
     @Autowired

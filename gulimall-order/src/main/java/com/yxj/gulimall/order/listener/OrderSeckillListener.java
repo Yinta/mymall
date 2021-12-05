@@ -13,9 +13,9 @@ import org.springframework.stereotype.Component;
 import java.io.IOException;
 
 /**
- * @Description:
- **/
-
+ * @author yaoxinjia
+ * @email 894548575@qq.com
+ */
 @Slf4j
 @Component
 @RabbitListener(queues = "order.seckill.order.queue")

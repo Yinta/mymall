@@ -8,7 +8,10 @@ import org.springframework.session.web.http.CookieSerializer;
 import org.springframework.session.web.http.DefaultCookieSerializer;
 
 
-
+/**
+ * @author yaoxinjia
+ * @email 894548575@qq.com
+ */
 @Configuration
 public class GulimallSessionConfig {
 

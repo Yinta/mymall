@@ -10,7 +10,9 @@ import org.springframework.data.redis.serializer.GenericJackson2JsonRedisSeriali
 import org.springframework.data.redis.serializer.RedisSerializationContext;
 import org.springframework.data.redis.serializer.StringRedisSerializer;
 
-
+/**
+ * @author yaoxinjia
+ */
 @EnableConfigurationProperties(CacheProperties.class)
 @Configuration
 @EnableCaching
@@ -34,7 +36,6 @@ public class MyCacheConfig {
         if (!redisProperties.isUseKeyPrefix()) {
             config = config.disableKeyPrefix();
         }
-//        config = config.entryTtl();
         return config;
     }
 }

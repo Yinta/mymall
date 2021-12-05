@@ -7,8 +7,8 @@ import com.yxj.gulimall.order.entity.RefundInfoEntity;
 import java.util.Map;
 
 /**
- * 退款信息
- *
+ * @author yaoxinjia
+ * @email 894548575@qq.com
  */
 public interface RefundInfoService extends IService<RefundInfoEntity> {
 

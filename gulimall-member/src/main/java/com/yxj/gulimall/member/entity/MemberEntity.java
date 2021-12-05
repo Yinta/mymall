@@ -10,10 +10,10 @@ import lombok.NoArgsConstructor;
 
 /**
  * 会员
- * 
- * @author liuxinle
- * @email liuxinle@gmail.com
- * @date 2021-01-11 17:48:09
+ *
+ * @author yaoxinjia
+ * @email 894548575@qq.com
+ * @date 2021-02-09 20:58:11
  */
 @Data
 @NoArgsConstructor

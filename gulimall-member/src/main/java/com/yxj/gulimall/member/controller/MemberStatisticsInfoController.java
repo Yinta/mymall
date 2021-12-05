@@ -15,7 +15,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 
-
+/**
+ *
+ * @author yaoxinjia
+ */
 @RestController
 @RequestMapping("member/memberstatisticsinfo")
 public class MemberStatisticsInfoController {

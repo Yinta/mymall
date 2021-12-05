@@ -23,7 +23,9 @@ import com.yxj.gulimall.product.dao.CategoryBrandRelationDao;
 import com.yxj.gulimall.product.entity.CategoryBrandRelationEntity;
 import com.yxj.gulimall.product.service.CategoryBrandRelationService;
 
-
+/**
+ * @author yaoxinjia
+ */
 @Service("categoryBrandRelationService")
 public class CategoryBrandRelationServiceImpl extends ServiceImpl<CategoryBrandRelationDao, CategoryBrandRelationEntity> implements CategoryBrandRelationService {
 

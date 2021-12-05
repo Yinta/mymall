@@ -5,12 +5,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
- * @Description:
- * @Created: with IntelliJ IDEA.
- * @author: 夏沫止水
- * @createTime: 2020-07-03 19:14
- **/
-
+ * @author yaoxinjia
+ */
 @FeignClient("gulimall-member")
 public interface MemberFeignService {
 

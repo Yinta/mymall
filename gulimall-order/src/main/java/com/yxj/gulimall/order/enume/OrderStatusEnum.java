@@ -1,6 +1,9 @@
 package com.yxj.gulimall.order.enume;
 
-
+/**
+ * @author yaoxinjia
+ * @email 894548575@qq.com
+ */
 public enum OrderStatusEnum {
     CREATE_NEW(0,"待付款"),
     PAYED(1,"已付款"),

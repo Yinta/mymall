@@ -12,7 +12,9 @@ import com.yxj.gulimall.product.dao.SpuCommentDao;
 import com.yxj.gulimall.product.entity.SpuCommentEntity;
 import com.yxj.gulimall.product.service.SpuCommentService;
 
-
+/**
+ * @author yaoxinjia
+ */
 @Service("spuCommentService")
 public class SpuCommentServiceImpl extends ServiceImpl<SpuCommentDao, SpuCommentEntity> implements SpuCommentService {
 

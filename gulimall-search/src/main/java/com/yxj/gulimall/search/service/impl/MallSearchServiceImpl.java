@@ -47,7 +47,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-
+/**
+ * @author yaoxinjia
+ */
 @Slf4j
 @Service
 public class MallSearchServiceImpl implements MallSearchService {

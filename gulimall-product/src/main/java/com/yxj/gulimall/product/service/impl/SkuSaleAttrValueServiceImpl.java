@@ -16,7 +16,9 @@ import com.yxj.gulimall.product.dao.SkuSaleAttrValueDao;
 import com.yxj.gulimall.product.entity.SkuSaleAttrValueEntity;
 import com.yxj.gulimall.product.service.SkuSaleAttrValueService;
 
-
+/**
+ * @author yaoxinjia
+ */
 @Service("skuSaleAttrValueService")
 public class SkuSaleAttrValueServiceImpl extends ServiceImpl<SkuSaleAttrValueDao, SkuSaleAttrValueEntity> implements SkuSaleAttrValueService {
 

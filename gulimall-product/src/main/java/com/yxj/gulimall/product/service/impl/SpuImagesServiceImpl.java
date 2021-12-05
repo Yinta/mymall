@@ -16,7 +16,9 @@ import com.yxj.gulimall.product.dao.SpuImagesDao;
 import com.yxj.gulimall.product.entity.SpuImagesEntity;
 import com.yxj.gulimall.product.service.SpuImagesService;
 
-
+/**
+ * @author yaoxinjia
+ */
 @Service("spuImagesService")
 public class SpuImagesServiceImpl extends ServiceImpl<SpuImagesDao, SpuImagesEntity> implements SpuImagesService {
 

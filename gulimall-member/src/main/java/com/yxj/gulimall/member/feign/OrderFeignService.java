@@ -6,7 +6,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 import java.util.Map;
 
-
+/**
+ * @author yaoxinjia
+ * @email 894548575@qq.com
+ */
 @FeignClient("gulimall-order")
 public interface OrderFeignService {
 

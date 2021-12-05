@@ -3,7 +3,9 @@ package com.yxj.gulimall.product.vo;
 import com.baomidou.mybatisplus.annotation.TableField;
 import lombok.Data;
 
-
+/**
+ * @author yaoxinjia
+ */
 @Data
 public class AttrVo {
     /**

@@ -1,8 +1,9 @@
 package com.yxj.gulimall.common.constant;
 
 /**
- * @Description: 购物车常量
- **/
+ *
+ * @author yaoxinjia
+ */
 public class CartConstant {
 
     public final static String TEMP_USER_COOKIE_NAME = "user-key";

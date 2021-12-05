@@ -2,7 +2,9 @@
   * Copyright 2021 bejson.com 
   */
 package com.yxj.gulimall.product.vo;
-
+/**
+ * @author yaoxinjia
+ */
 import lombok.Data;
 
 /**

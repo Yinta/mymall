@@ -5,7 +5,9 @@ import lombok.Data;
 import java.util.List;
 
 
-
+/**
+ * @author yaoxinjia
+ */
 @Data
 public class WareSkuLockVo {
 

@@ -3,7 +3,10 @@ package com.yxj.gulimall.cart.vo;
 import java.math.BigDecimal;
 import java.util.List;
 
-
+/**
+ *
+ * @author yaoxinjia
+ */
 public class CartItemVo {
 
     private Long skuId;

@@ -13,7 +13,9 @@ import org.springframework.stereotype.Component;
  *      1、@EnableAsync:开启异步任务
  *      2、@Async：给希望异步执行的方法标注
  */
-
+/**
+ * @author yaoxinjia
+ */
 @Slf4j
 @Component
 // @EnableAsync

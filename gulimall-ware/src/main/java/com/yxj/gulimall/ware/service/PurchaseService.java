@@ -10,8 +10,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * 采购信息
- *
+ * @author yaoxinjia
  */
 public interface PurchaseService extends IService<PurchaseEntity> {
 

@@ -21,12 +21,8 @@ import static com.yxj.gulimall.common.constant.AuthServerConstant.SESSION_LOGIN_
 
 
 /**
- * @Description:
- * @Created: with IntelliJ IDEA.
- * @author: 夏沫止水
- * @createTime: 2020-08-10 20:28
- **/
-
+ * @author yaoxinjia
+ */
 @Slf4j
 @Controller
 @RequestMapping(value = "/api/ucenter/wx")

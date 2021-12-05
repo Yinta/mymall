@@ -6,7 +6,10 @@ import java.math.BigDecimal;
 import java.util.Date;
 
 
-
+/**
+ *
+ * @author yaoxinjia
+ */
 @Data
 public class OrderTo {
 

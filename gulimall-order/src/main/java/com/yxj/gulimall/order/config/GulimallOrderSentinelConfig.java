@@ -13,7 +13,10 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 
-
+/**
+ * @author yaoxinjia
+ * @email 894548575@qq.com
+ */
 @Configuration
 public class GulimallOrderSentinelConfig {
 

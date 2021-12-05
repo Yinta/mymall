@@ -6,7 +6,9 @@ import javax.validation.constraints.NotNull;
 import java.util.List;
 
 
-
+/**
+ * @author yaoxinjia
+ */
 @Data
 public class PurchaseDoneVo {
 

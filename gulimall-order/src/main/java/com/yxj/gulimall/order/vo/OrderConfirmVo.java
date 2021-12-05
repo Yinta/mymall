@@ -8,7 +8,10 @@ import java.util.List;
 import java.util.Map;
 
 
-
+/**
+ * @author yaoxinjia
+ * @email 894548575@qq.com
+ */
 public class OrderConfirmVo {
 
     @Getter @Setter

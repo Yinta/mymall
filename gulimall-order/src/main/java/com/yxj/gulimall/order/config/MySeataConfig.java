@@ -11,7 +11,10 @@ import org.springframework.util.StringUtils;
 import javax.sql.DataSource;
 
 
-
+/**
+ * @author yaoxinjia
+ * @email 894548575@qq.com
+ */
 @Configuration
 public class MySeataConfig {
 

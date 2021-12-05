@@ -6,7 +6,7 @@
     <artifactId>gulimall-auth-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>gulimall-auth-server</name>
-    <description>认证中心（社交登录、OAuth2.0、单点登录）</description>
+    <description>认证服务</description>
 
     <properties>
         <java.version>1.8</java.version>

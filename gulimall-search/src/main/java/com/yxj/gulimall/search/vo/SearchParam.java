@@ -5,8 +5,7 @@ import lombok.Data;
 import java.util.List;
 
 /**
- 封装页面所有可能传递过来的关键字
- * catalog3Id=225&keyword=华为&sort=saleCount_asc&hasStock=0/1&brandId=25&brandId=30
+ * @author yaoxinjia
  */
 @Data
 public class SearchParam {

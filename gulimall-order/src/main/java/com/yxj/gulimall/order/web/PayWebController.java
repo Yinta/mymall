@@ -19,7 +19,10 @@ import javax.annotation.Resource;
 
 import static com.lly835.bestpay.enums.BestPayTypeEnum.WXPAY_NATIVE;
 
-
+/**
+ * @author yaoxinjia
+ * @email 894548575@qq.com
+ */
 @Slf4j
 @Controller
 public class PayWebController {

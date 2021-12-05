@@ -17,8 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 /**
- * 库存工作单
- *
+ * @author yaoxinjia
  */
 @RestController
 @RequestMapping("ware/wareordertaskdetail")

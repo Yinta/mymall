@@ -1,5 +1,9 @@
 package com.yxj.gulimall.common.constant;
 
+/**
+ *
+ * @author yaoxinjia
+ */
 public class WareConstant {
     public enum PurchaseStatusEnum{
         CREATED(0,"新建"),ASSIGNED(1,"已分配"),

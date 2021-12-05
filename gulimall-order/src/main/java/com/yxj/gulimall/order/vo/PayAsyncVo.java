@@ -4,7 +4,10 @@ import lombok.Data;
 import lombok.ToString;
 
 import java.util.Date;
-
+/**
+ * @author yaoxinjia
+ * @email 894548575@qq.com
+ */
 @ToString
 @Data
 public class PayAsyncVo {

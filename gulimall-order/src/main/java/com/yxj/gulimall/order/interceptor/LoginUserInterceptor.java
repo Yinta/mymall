@@ -12,7 +12,10 @@ import java.io.PrintWriter;
 
 import static com.yxj.gulimall.common.constant.AuthServerConstant.SESSION_LOGIN_KEY;
 
-
+/**
+ * @author yaoxinjia
+ * @email 894548575@qq.com
+ */
 @Component
 public class LoginUserInterceptor implements HandlerInterceptor {
 

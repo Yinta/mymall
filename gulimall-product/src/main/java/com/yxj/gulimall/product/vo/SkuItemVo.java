@@ -6,7 +6,9 @@ import com.yxj.gulimall.product.entity.SpuInfoDescEntity;
 import lombok.Data;
 
 import java.util.List;
-
+/**
+ * @author yaoxinjia
+ */
 @Data
 public class SkuItemVo {
 

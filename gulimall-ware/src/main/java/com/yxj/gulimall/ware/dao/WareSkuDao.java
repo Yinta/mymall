@@ -11,6 +11,9 @@ import java.util.List;
  * 商品库存
  *
  */
+/**
+ * @author yaoxinjia
+ */
 @Mapper
 public interface WareSkuDao extends BaseMapper<WareSkuEntity> {
 

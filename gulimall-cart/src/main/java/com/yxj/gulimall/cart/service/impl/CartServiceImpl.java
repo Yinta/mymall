@@ -29,6 +29,11 @@ import java.util.stream.Collectors;
 import static com.yxj.gulimall.common.constant.CartConstant.CART_PREFIX;
 
 
+
+/**
+ *
+ * @author yaoxinjia
+ */
 @Slf4j
 @Service("cartService")
 public class CartServiceImpl implements CartService {

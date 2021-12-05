@@ -4,9 +4,11 @@ import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 
-
+/**
+ * @author yaoxinjia
+ * @email 894548575@qq.com
+ */
 @ConfigurationProperties(prefix = "gulimall.thread")
-// @Component
 @Data
 public class ThreadPoolConfigProperties {
 

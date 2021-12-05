@@ -30,13 +30,14 @@ import com.yxj.gulimall.product.service.CategoryService;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.StringUtils;
 
-
+/**
+ * 商品三级分类
+ *
+ * @author yaoxinjia
+ */
 @Service("categoryService")
 public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity> implements CategoryService {
 
-//    private Map<String,Object> cache = new HashMap<>();
-//    @Autowired
-//    private CategoryDao categoryDao;
 
     @Autowired
     CategoryBrandRelationService categoryBrandRelationService;
@@ -73,6 +74,27 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity
         return level1Menus;
     }
 
+
+    /**
+     * 递归查找所有菜单的子菜单
+     * @param root
+     * @param all
+     * @return
+     */
+    private List<CategoryEntity> getChildrens(CategoryEntity root, List<CategoryEntity> all) {
+        List<CategoryEntity> children = all.stream().filter(categoryEntity -> {
+            return categoryEntity.getParentCid().longValue() == root.getCatId().longValue();  // 注意此处应该用longValue()来比较，否则会出先bug，因为parentCid和catId是long类型
+        }).map(categoryEntity -> {
+            // 1 找到子菜单
+            categoryEntity.setChildren(getChildrens(categoryEntity, all));
+            return categoryEntity;
+        }).sorted((menu1, menu2) -> {
+            // 2 菜单的排序
+            return (menu1.getSort() == null ? 0 : menu1.getSort()) - (menu2.getSort() == null ? 0 : menu2.getSort());
+        }).collect(Collectors.toList());
+        return children;
+    }
+
     @Override
     public void removeMenuByIds(List<Long> asList) {
         // TODO 1 检查当前删除的菜单，是否被别的地方引用
@@ -82,7 +104,6 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity
     }
 
     @Override
-//    [2,25,255]
     public Long[] findCatelogPath(Long catelogId) {
         List<Long> paths = new ArrayList<>();
         List<Long> parentPath = findParentPath(catelogId, paths);
@@ -96,10 +117,6 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity
      *
      * @param category
      */
-//    @Caching(evict = {
-//            @CacheEvict(value = "category",key = "'getLevel1Categorys'"),
-//            @CacheEvict(value = "category",key = "'getCatalogJson'")
-//    })
     @CacheEvict(value = "category",allEntries = true)  // 失效模式
     @CachePut // 双写模式
     @Transactional
@@ -298,15 +315,6 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity
     // 从数据库查询并封装分类数据
     public Map<String, List<Catelog2Vo>> getCatalogJsonFromDbWithLocallock() {
 
-//        // 1 如果缓存中有就用缓存的
-//        Map<String, List<Catelog2Vo>> catalogJson = (Map<String, List<Catelog2Vo>>) cache.get("catalogJson");
-//        if (cache.get("catalogJson") == null) {
-//            // 调用业务
-//            // 返回数据又放入缓存
-//            cache.put("catalogJson",parent_cid);
-//        }
-
-//            return catalogJson;
 
         // 只要是同一把锁，就能锁住需要这个锁的所有线程
         synchronized (this) {
@@ -338,19 +346,6 @@ public class CategoryServiceImpl extends ServiceImpl<CategoryDao, CategoryEntity
         return paths;
     }
 
-    // 递归查找所有菜单的子菜单
-    private List<CategoryEntity> getChildrens(CategoryEntity root, List<CategoryEntity> all) {
-        List<CategoryEntity> children = all.stream().filter(categoryEntity -> {
-            return categoryEntity.getParentCid().longValue() == root.getCatId().longValue();  // 注意此处应该用longValue()来比较，否则会出先bug，因为parentCid和catId是long类型
-        }).map(categoryEntity -> {
-            // 1 找到子菜单
-            categoryEntity.setChildren(getChildrens(categoryEntity, all));
-            return categoryEntity;
-        }).sorted((menu1, menu2) -> {
-            // 2 菜单的排序
-            return (menu1.getSort() == null ? 0 : menu1.getSort()) - (menu2.getSort() == null ? 0 : menu2.getSort());
-        }).collect(Collectors.toList());
-        return children;
-    }
+
 
 }

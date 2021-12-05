@@ -5,7 +5,10 @@ import lombok.ToString;
 
 import java.io.Serializable;
 import java.util.Date;
-
+/**
+ *
+ * @author yaoxinjia
+ */
 @ToString
 @Data
 public class MemberRespVo implements Serializable {

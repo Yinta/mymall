@@ -10,17 +10,23 @@ import java.util.Map;
 
 /**
  * 商品三级分类
- *
  * @author yaoxinjia
- * @email 894548575@qq.com
- * @date 2021-02-16 17:22:13
  */
 public interface CategoryService extends IService<CategoryEntity> {
 
     PageUtils queryPage(Map<String, Object> params);
 
+    /**
+     * 查出所有分类以及子分类，以树形结构组装起来
+     * @return
+     */
     List<CategoryEntity> listWithTree();
 
+
+    /**
+     * 删除
+     * @param asList
+     */
     void removeMenuByIds(List<Long> asList);
 
     /**
@@ -31,6 +37,11 @@ public interface CategoryService extends IService<CategoryEntity> {
      */
     Long[] findCatelogPath(Long catelogId);
 
+    /**
+     * 修改
+     * @param category
+     * @return
+     */
     void updateCasecade(CategoryEntity category);
 
 

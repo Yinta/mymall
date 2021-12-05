@@ -5,11 +5,11 @@ import com.yxj.gulimall.member.entity.MemberLevelEntity;
 import org.apache.ibatis.annotations.Mapper;
 
 /**
- * 会员等级
- * 
- * @author liuxinle
- * @email liuxinle@gmail.com
- * @date 2021-01-11 17:48:09
+ * 会员
+ *
+ * @author yaoxinjia
+ * @email 894548575@qq.com
+ * @date 2021-02-09 20:58:11
  */
 @Mapper
 public interface MemberLevelDao extends BaseMapper<MemberLevelEntity> {

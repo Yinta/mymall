@@ -10,9 +10,9 @@ import org.springframework.web.context.request.ServletRequestAttributes;
 import javax.servlet.http.HttpServletRequest;
 
 /**
-
- **/
-
+ *
+ * @author yaoxinjia
+ */
 @Configuration
 public class GuliFeignConfig {
 

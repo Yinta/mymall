@@ -11,7 +11,9 @@ import org.springframework.context.annotation.Configuration;
 
 import java.util.HashMap;
 
-
+/**
+ * @author yaoxinjia
+ */
 @Configuration
 public class MyRabbitMQConfig {
 

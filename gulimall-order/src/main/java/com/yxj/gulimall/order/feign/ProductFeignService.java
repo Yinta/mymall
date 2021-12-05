@@ -5,7 +5,10 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
-
+/**
+ * @author yaoxinjia
+ * @email 894548575@qq.com
+ */
 @FeignClient("gulimall-product")
 public interface ProductFeignService {
 

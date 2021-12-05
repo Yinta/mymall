@@ -6,7 +6,10 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 
-
+/**
+ *
+ * @author yaoxinjia
+ */
 @ControllerAdvice
 public class RuntimeExceptionHandler {
 

@@ -26,7 +26,9 @@ import com.yxj.gulimall.product.entity.AttrGroupEntity;
 import com.yxj.gulimall.product.service.AttrGroupService;
 import org.springframework.util.StringUtils;
 
-
+/**
+ * @author yaoxinjia
+ */
 @Service("attrGroupService")
 public class AttrGroupServiceImpl extends ServiceImpl<AttrGroupDao, AttrGroupEntity> implements AttrGroupService {
 

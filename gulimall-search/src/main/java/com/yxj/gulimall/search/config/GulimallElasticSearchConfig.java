@@ -8,7 +8,9 @@ import org.elasticsearch.client.RestHighLevelClient;
 import org.springframework.boot.SpringBootConfiguration;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-
+/**
+ * @author yaoxinjia
+ */
 @SpringBootConfiguration
 public class GulimallElasticSearchConfig {
 

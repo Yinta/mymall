@@ -14,12 +14,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import java.util.List;
 
 /**
- * @Description:
- * @Created: with IntelliJ IDEA.
- * @author: 夏沫止水
- * @createTime: 2020-07-10 11:01
- **/
-
+ * @author yaoxinjia
+ */
 @Controller
 public class SeckillController {
 

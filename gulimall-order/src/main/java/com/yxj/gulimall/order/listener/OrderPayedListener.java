@@ -16,9 +16,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @Description: 订单支付成功监听器
- **/
-
+ * @author yaoxinjia
+ * @email 894548575@qq.com
+ */
 @RestController
 public class OrderPayedListener {
 

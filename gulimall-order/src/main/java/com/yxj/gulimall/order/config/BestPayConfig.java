@@ -8,7 +8,10 @@ import org.springframework.stereotype.Component;
 
 import javax.annotation.Resource;
 
-
+/**
+ * @author yaoxinjia
+ * @email 894548575@qq.com
+ */
 @Component
 public class BestPayConfig {
 

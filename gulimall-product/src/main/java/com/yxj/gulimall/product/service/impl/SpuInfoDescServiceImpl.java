@@ -12,7 +12,9 @@ import com.yxj.gulimall.product.dao.SpuInfoDescDao;
 import com.yxj.gulimall.product.entity.SpuInfoDescEntity;
 import com.yxj.gulimall.product.service.SpuInfoDescService;
 
-
+/**
+ * @author yaoxinjia
+ */
 @Service("spuInfoDescService")
 public class SpuInfoDescServiceImpl extends ServiceImpl<SpuInfoDescDao, SpuInfoDescEntity> implements SpuInfoDescService {
 

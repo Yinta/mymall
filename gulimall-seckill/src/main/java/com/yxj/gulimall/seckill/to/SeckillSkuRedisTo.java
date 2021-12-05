@@ -6,7 +6,9 @@ import lombok.Data;
 import java.math.BigDecimal;
 
 
-
+/**
+ * @author yaoxinjia
+ */
 @Data
 public class SeckillSkuRedisTo {
 

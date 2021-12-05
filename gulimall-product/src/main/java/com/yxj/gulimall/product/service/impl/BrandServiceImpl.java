@@ -19,7 +19,9 @@ import com.yxj.gulimall.product.service.BrandService;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.StringUtils;
 
-
+/**
+ * @author yaoxinjia
+ */
 @Service("brandService")
 public class BrandServiceImpl extends ServiceImpl<BrandDao, BrandEntity> implements BrandService {
 

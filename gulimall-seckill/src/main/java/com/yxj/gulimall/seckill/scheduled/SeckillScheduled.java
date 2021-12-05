@@ -18,7 +18,9 @@ import java.util.concurrent.TimeUnit;
  *  明天00:00:00 - 23:59:59
  *  后天00:00:00 - 23:59:59
  */
-
+/**
+ * @author yaoxinjia
+ */
 @Slf4j
 @Service
 public class SeckillScheduled {

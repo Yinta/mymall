@@ -1,5 +1,9 @@
 package com.yxj.gulimall.common.exception;
 
+/**
+ *
+ * @author yaoxinjia
+ */
 public enum BizCodeEnum {
     UNKNOWN_EXCEPTION(10000,"系统未知错误"),
     VALID_EXCEPTION(10001,"参数校验异常"),

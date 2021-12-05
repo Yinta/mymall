@@ -36,7 +36,9 @@ import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
 
-
+/**
+ * @author yaoxinjia
+ */
 @Slf4j
 @Service
 public class SeckillServiceImpl implements SeckillService {

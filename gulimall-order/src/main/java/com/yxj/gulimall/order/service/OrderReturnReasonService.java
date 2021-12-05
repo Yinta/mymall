@@ -7,8 +7,8 @@ import com.yxj.gulimall.order.entity.OrderReturnReasonEntity;
 import java.util.Map;
 
 /**
- * 退货原因
- *
+ * @author yaoxinjia
+ * @email 894548575@qq.com
  */
 public interface OrderReturnReasonService extends IService<OrderReturnReasonEntity> {
 

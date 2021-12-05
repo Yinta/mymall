@@ -8,11 +8,8 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * 会员收货地址
- *
- * @author 夏沫止水
- * @email HeJieLin@gulimall.com
- * @date 2020-05-22 19:42:06
+ * @author yaoxinjia
+ * @email 894548575@qq.com
  */
 public interface MemberReceiveAddressService extends IService<MemberReceiveAddressEntity> {
 

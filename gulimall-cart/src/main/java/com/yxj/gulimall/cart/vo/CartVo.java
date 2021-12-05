@@ -6,7 +6,10 @@ import java.math.BigDecimal;
 import java.util.List;
 
 
-
+/**
+ *
+ * @author yaoxinjia
+ */
 public class CartVo {
 
     /**

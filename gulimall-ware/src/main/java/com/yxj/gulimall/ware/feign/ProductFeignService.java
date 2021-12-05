@@ -6,12 +6,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
- * @Description:
- * @Created: with IntelliJ IDEA.
- * @author: 夏沫止水
- * @createTime: 2020-06-01 21:26
- **/
-
+ * @author yaoxinjia
+ */
 @FeignClient(value = "gulimall-product")
 public interface ProductFeignService {
 

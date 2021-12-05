@@ -8,7 +8,9 @@ import lombok.Data;
  * @author: 夏沫止水
  * @createTime: 2020-07-02 19:03
  **/
-
+/**
+ * @author yaoxinjia
+ */
 @Data
 public class MemberAddressVo {
 

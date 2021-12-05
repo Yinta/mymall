@@ -7,7 +7,9 @@ import com.yxj.gulimall.ware.entity.PurchaseDetailEntity;
 import java.util.List;
 import java.util.Map;
 
-
+/**
+ * @author yaoxinjia
+ */
 public interface PurchaseDetailService extends IService<PurchaseDetailEntity> {
 
     PageUtils queryPage(Map<String, Object> params);

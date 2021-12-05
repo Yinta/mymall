@@ -7,7 +7,10 @@ import com.yxj.gulimall.cart.vo.CartVo;
 import java.util.List;
 import java.util.concurrent.ExecutionException;
 
-
+/**
+ *
+ * @author yaoxinjia
+ */
 public interface CartService {
 
     /**

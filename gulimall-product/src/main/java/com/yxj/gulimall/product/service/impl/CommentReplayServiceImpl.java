@@ -12,7 +12,9 @@ import com.yxj.gulimall.product.dao.CommentReplayDao;
 import com.yxj.gulimall.product.entity.CommentReplayEntity;
 import com.yxj.gulimall.product.service.CommentReplayService;
 
-
+/**
+ * @author yaoxinjia
+ */
 @Service("commentReplayService")
 public class CommentReplayServiceImpl extends ServiceImpl<CommentReplayDao, CommentReplayEntity> implements CommentReplayService {
 

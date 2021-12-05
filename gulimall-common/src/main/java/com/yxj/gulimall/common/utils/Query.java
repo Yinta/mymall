@@ -17,9 +17,8 @@ import org.apache.commons.lang.StringUtils;
 import java.util.Map;
 
 /**
- * 查询参数
  *
- * @author Mark sunlightcs@gmail.com
+ * @author yaoxinjia
  */
 public class Query<T> {
 

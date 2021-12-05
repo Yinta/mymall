@@ -6,10 +6,20 @@ import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.reactive.CorsWebFilter;
 import org.springframework.web.cors.reactive.UrlBasedCorsConfigurationSource;
 
-@Configuration // gateway
+/**
+ * @author yaoxinjia
+ * @email 894548575@qq.com
+ * @date 2021-02-16 17:22:13
+ * gateway
+ */
+@Configuration
 public class GulimallCorsConfiguration {
 
-    @Bean // 添加过滤器
+    /**
+     * 添加过滤器
+     * @return
+     */
+    @Bean
     public CorsWebFilter corsWebFilter(){
         // 基于url跨域，选择reactive包下的
         UrlBasedCorsConfigurationSource source=new UrlBasedCorsConfigurationSource();

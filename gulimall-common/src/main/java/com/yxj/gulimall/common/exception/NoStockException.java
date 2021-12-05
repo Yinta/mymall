@@ -4,9 +4,9 @@ import lombok.Getter;
 import lombok.Setter;
 
 /**
- * @Description: 无库存抛出的异常
- **/
-
+ *
+ * @author yaoxinjia
+ */
 @Getter
 @Setter
 public class NoStockException extends RuntimeException {

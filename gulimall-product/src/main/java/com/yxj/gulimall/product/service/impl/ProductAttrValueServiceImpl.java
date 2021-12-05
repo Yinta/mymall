@@ -17,7 +17,9 @@ import com.yxj.gulimall.product.entity.ProductAttrValueEntity;
 import com.yxj.gulimall.product.service.ProductAttrValueService;
 import org.springframework.transaction.annotation.Transactional;
 
-
+/**
+ * @author yaoxinjia
+ */
 @Service("productAttrValueService")
 public class ProductAttrValueServiceImpl extends ServiceImpl<ProductAttrValueDao, ProductAttrValueEntity> implements ProductAttrValueService {
 

@@ -3,7 +3,10 @@ package com.yxj.gulimall.order.vo;
 import lombok.Data;
 
 import java.util.List;
-
+/**
+ * @author yaoxinjia
+ * @email 894548575@qq.com
+ */
 @Data
 public class WareSkuLockVo {
 

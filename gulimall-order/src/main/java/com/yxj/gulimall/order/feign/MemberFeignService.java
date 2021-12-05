@@ -8,7 +8,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 import java.util.List;
 
 
-
+/**
+ * @author yaoxinjia
+ * @email 894548575@qq.com
+ */
 @FeignClient("gulimall-member")
 public interface MemberFeignService {
 
